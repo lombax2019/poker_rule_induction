@@ -1,7 +1,7 @@
 # engineered three new variables in dataset via excel:
 # card_count: =max(frequency([C1:C5],[C1:C5]))
 # face_count: =countif([C1:C5],"=1")+countif([C1:C5],">10")
-# suit_count: =max(frequency([C1:C5],[C1:C5]))
+# suit_count: =max(frequency([S1:S5],[S1:S5]))
 
 # set directory and loaded data
 setwd("~/Poker Rule Induction")
