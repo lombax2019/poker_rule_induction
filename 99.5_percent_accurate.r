@@ -1,4 +1,4 @@
-# created three new variables in dataset via excel:
+# created four new variables in dataset via excel:
 # card_first_count: =large(frequency([C1:C5],[C1:C5]),1)
 # card_second_count: =large(frequency([C1:C5],[C1:C5]),2)
 # face_count: =countif([C1:C5],"=1")+countif([C1:C5],">10")
