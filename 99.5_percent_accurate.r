@@ -24,4 +24,4 @@ test <- cbind(id=id, test)
 # applied prediction and wrote submit file
 prediction <- predict(fit, test)
 submit <- data.frame(id=test$id, hand=prediction)
-write.csv(submit, file="firstattempt.csv", row.names=FALSE)
+write.csv(submit, file="prettyclose.csv", row.names=FALSE)
